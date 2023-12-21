@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.header__content {
+  width: 1240px;
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 700;
+  color: #eb5757;
+  font-family: "Poppins", sans-serif;
+}
+
+.header__links {
+  color: #a1a1a1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+  gap: 65px;
+}
+
+.header__links a {
+  color: #a1a1a1;
+  text-decoration: none;
+}
+
+.content__titles {
+  width: 1240px;
+  padding-top: 73px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.content__acomodation {
+  color: #515151;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.content__options {
+  color: #515151;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.content__photos {
+  width: 1240px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.border__photo {
+  border-radius: 10px;
+}
+
+.Avaliation {
+  width: 400px;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.review__star {
+  width: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avaliation__number {
+  color: #515151;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.border__red {
+  background-color: #eb5757;
+  border-radius: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.avaliation__text {
+  width: 400px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.super__host {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.description__place {
+  color: #515151;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
